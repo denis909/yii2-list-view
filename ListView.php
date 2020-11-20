@@ -13,8 +13,6 @@ class ListView extends \yii\widgets\ListView
 
     public $captionLayout = '{caption}';
 
-    public $pager = ['class' => LinkPager::class];
-
     public $layout = "{caption}\n{filter}\n{summary}\n{items}\n{pager}";
 
     public $itemsLayout = '{items}';
